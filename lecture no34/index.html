@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<script type="text/javascript" src="info.js"></script>
+	<style>
+		#one{
+			background-color: purple;
+			color: yellow;
+			height: 200px;
+			width: 100%;
+			margin-bottom: 10px;
+			padding: 20px;
+		}
+
+		#two{
+			background-color: yellow;
+			color: purple;
+			height: 200px;
+			width: 100%;
+			margin-bottom: 10px;
+			padding: 20px;
+		}
+
+		#three{
+			background-color: orange;
+			color: black;
+			height: 200px;
+			width: 100%;
+			margin-bottom: 10px;
+			padding: 20px;
+		}
+
+
+		button{
+			height: 50px;
+			background-color: green;
+			color: white;
+			border-radius: 10px;
+			width: 200px;
+
+		}
+	</style>
+</head>
+<body>
+	<button onclick="full_page_print()">Full page print..</button>
+	<br><br>
+	<div id="one">
+		<h1>Print the Div 1</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<button onclick="select_page_print('one')">Print Page...</button>
+	</div>
+
+
+	<div id="two">
+		<h1>Print the Div 2</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<button onclick="select_page_print('two')">Print Page...</button>
+	</div>
+
+
+	<div id="three">
+		<h1>Print the Div 3</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<button onclick="select_page_print('three')">Print Page...</button>
+	</div>
+</body>
+</html>

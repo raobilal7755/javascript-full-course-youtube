@@ -1,0 +1,44 @@
+div{
+	height: 100vh;
+	width: 100%;
+	background-color: #6AD874;
+	padding: 30px;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	font-size: 45px;
+	color: #ED3131;
+	text-align:center;
+}
+
+#phone{
+	padding: 10px;
+	font-size: 20px;
+	width: 400px;
+	border-radius: 3px;
+}
+
+label{
+	color: #E24D4D;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+#btn{
+	background-color: #ED5454;
+	color: white;
+	font-size: 20px;
+	width: 180px;
+	height: 50px;
+	border-radius: 10px;
+}
+
+span{
+	color: #F805D9;
+	font-family: monospace;
+	font-size: 22px;
+}

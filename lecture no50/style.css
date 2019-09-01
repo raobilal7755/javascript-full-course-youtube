@@ -1,0 +1,28 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#parent{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background-color: #603ECD;
+}
+#child{
+	position: absolute;
+	height: 130px;
+	line-height: 130px;
+	text-align: center;
+	color: #5F35CA;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 33px;
+	width: 400px;
+	background-color: #F1F0F0;
+	border-radius: 10px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}

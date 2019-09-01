@@ -1,0 +1,28 @@
+div{
+	height: 400px;
+	width: 700px;
+	background-color: #6AD874;
+	padding: 30px;
+}
+
+#txt{
+	padding: 10px;
+	font-size: 20px;
+	width: 400px;
+	border-radius: 3px;
+}
+
+#btn{
+	background-color: #ED5454;
+	color: white;
+	font-size: 20px;
+	width: 180px;
+	height: 50px;
+	border-radius: 10px;
+}
+
+span{
+	color: #F805D9;
+	font-family: monospace;
+	font-size: 22px;
+}

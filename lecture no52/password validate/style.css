@@ -1,0 +1,47 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+div{
+	height: 100vh;
+	width: 100%;
+	background-color: #6AD874;
+	padding: 30px;
+}
+
+#pass1{
+	padding: 6px;
+	font-size: 20px;
+	width: 400px;
+	border-radius: 3px;
+}
+
+#pass2{
+	padding: 6px;
+	font-size: 20px;
+	width: 400px;
+	border-radius: 3px;
+}
+
+#btn{
+	background-color: #ED5454;
+	color: white;
+	font-size: 20px;
+	width: 180px;
+	height: 50px;
+	border-radius: 10px;
+}
+
+span{
+	color: #F805D9;
+	font-family: monospace;
+	font-size: 22px;
+}
+
+h1{
+	font-style: italic;
+	text-align: center;
+	font-size: 35px;
+	color: #E64747;
+}
